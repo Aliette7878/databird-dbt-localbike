@@ -38,6 +38,6 @@ models:
     intermediate:
       +materialized: view
       +schema: localbike_int
-    marts:
+    mart:
       +materialized: table
       +schema: localbike_mrt
