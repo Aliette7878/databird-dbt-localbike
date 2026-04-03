@@ -34,9 +34,9 @@ models:
   - name: stg_localbike__staffs
     columns:
       - name: staff_id
-        tests:
-            - unique
+        tests: 
             - not_null
+            - unique
   - name: stg_localbike__stocks
     columns:
       - name: store_id
