@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: localbike_source
+    schema: localbike_source
+    tables:
+      - name: brands
