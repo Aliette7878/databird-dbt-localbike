@@ -1,0 +1,82 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: dbt-64@databird-project-488419.iam.gserviceaccount.com
+        client_id: '114300835487663219138'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/dbt-64%40databird-project-488419.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcLDkkyH3ejNvq
+
+          XvQIutqnzAzfMlwFdnqfwTLHOn2G7S3/KAJmTTkC4atvRGDs7IkDNfCRVAnF3eAb
+
+          g6nbn//VaMxrWyTlbrQLAi07vjLipaHhUqQudEZ8ov+w38EAkMp8TAPkawpKyK0q
+
+          LtJakr0nFDtvqVUcTkgyqokEa34qTn1uLcPccx5dXQly+3MryvqUuGKe4lm7dL8c
+
+          jdbCU/dvrGi/eXvCaUM2HyxbBGTaGoqQu8k9zJfB/ICkDGDfizIPCr3fJNtyJ9Ie
+
+          +cdEjhOQvwipklWLTv/IsAw75WmBqaLN2xTlrXU4yQuHg4hI5zkVCQ6JvHFIZtj+
+
+          urcibKc7AgMBAAECggEAPv76RK+G8CfufnM3sM3B5VPpdO1ETh3VvSL6w+1U4Ee5
+
+          qvGIKjw7LTtjoVz3vKJ7G2uSDwr0FuTCjCzSa3Aus6GeJ7N27ZyMsD+psJfdmGLa
+
+          3A0Yw9/qERxUO4fyAZbsEL9xN6h20+nyPgkSj+6/Z1CPJwZUv1oYp0KLHLQi77ho
+
+          dtxdX5l5q+aDNNI9e+P5jglChhZDkM1ZOw6VZ3TeK9irVGmtUCZvScI6GOZI93pp
+
+          IxGxZdK5ffO1wUdc6g+jHr9nkbWbprYphp6SNVFaLN1vfRVVx8AjKDlLbk//40Rk
+
+          frzMcxtMRwXxC+khy6/9KXqlWrOLD/HmKke74+YZKQKBgQD6aElQ/dlaV8vPxK+o
+
+          Kzw6W+7TZma5UjEd38aaooCmmna6U3YlgUCKzN0GZRKazdWGq+VmrCQcjyB5+JA/
+
+          H1oK4jvDPOvetTWMgTsb6Z2dPfTUKL/dbYy/1pnkQ17J/UHi+DLZpcUIgZ98Ru3Z
+
+          Gj7dBsUr6fpq18UMGB+7d1iZ8wKBgQDhFxG5IZugI3aTHnMwbgIZciZW2kWOCMxy
+
+          AH/TzNfqMT+apwEYShPR0nnbtFcatyZITjiufuX1tiL80eaTYt8UgdWW11BSIqM8
+
+          YiiEfSMo7sWj8joVsjGjwlMouF/8CqhXYufzYrJ/+XKjmlwB8dHDFvGcv0TIYIXd
+
+          zMGaWnEHmQKBgQDM2uo3/ySE21Saqg8GZjCEkddFTP322H3kMcD5mr3jDnTZJBSA
+
+          xEf4BXdAlwlsab4oyZIHuAZm8tSf1DC140E3rDM2Gy3f6aFgTAz+XdWa4SfdNWUZ
+
+          kljWTItjiZYPa0guldyL4CjcN6cw9Zn5xZXuHm7J6UX7iH/k0AuNwypR7wKBgA9i
+
+          Izzy1g8AvXbaiubRbeVNTt96tWw6n7Ze4F2aT1tbGEy6gzGkxmv9pYRlc9qIj947
+
+          MlaCp7a+Ru/ebJLAHBzrrqxLdNrYMS3MS5aacs+2Wd2VjXC0J/5YJpTO3Qh9tfma
+
+          8d1Jboeehb42q3kajMp3g/XBgLLtHdkFyGmDKtxpAoGBAMyr7dS+EvvH9yiPb1fK
+
+          hs1KKTkn4HEkkrdcxYNMwyXQ+uyUDXwz5DipemZ1FOv3HMAAZwfUbclRYjFEmfet
+
+          kC+qYCRvIcuXlY1eNFKXYOMiznWYA5VEV50zvH2we7bNmdwsKu4ZwsdFWQEAEnlO
+
+          sfWQw6AO9XTk5zvZ9yI6P6CK
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: 296e97c9e5be7b60e096380d7fbd57dad365e21d
+        project_id: databird-project-488419
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      method: service-account-json
+      project: databird-project-488419
+      schema: databird_dbt_adg_dev
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: -2
+      type: bigquery
+  target: default
