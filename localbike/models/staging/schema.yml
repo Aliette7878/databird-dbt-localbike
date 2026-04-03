@@ -4,7 +4,50 @@ models:
   - name: stg_localbike__brands
     columns:
       - name: brand_id
+        description: "Primary key, unique identifier for each brand"
+        tests:
+            - unique
+            - not_null            
+  - name: stg_localbike__categories
+    columns:
+      - name: category_id
         tests:
             - unique
             - not_null
-      - name: brand_name
+  - name: stg_localbike__customers
+    columns:
+      - name: customer_id
+        tests:
+            - unique
+            - not_null
+  - name: stg_localbike__order_items
+    columns:
+      - name: order_id
+        tests:
+            - not_null
+  - name: stg_localbike__orders
+    columns:
+      - name: order_id
+        tests:
+            - unique
+            - not_null
+  - name: stg_localbike__staffs
+    columns:
+      - name: staff_id
+        tests:
+            - unique
+            - not_null
+  - name: stg_localbike__stocks
+    columns:
+      - name: store_id
+        tests:
+            - not_null
+      - name: product_id
+        tests:
+            - not_null
+  - name: stg_localbike__stores
+    columns:
+      - name: store_id
+        tests:
+            - unique
+            - not_null
