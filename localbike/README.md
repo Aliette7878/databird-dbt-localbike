@@ -1,15 +1,5 @@
-Welcome to your new dbt project!
+# localbike (au sein du repo databird-dbt-localbike)
 
-### Using the starter project
+La partie minimum a été faite pour ce projet : dossiers stg, int et mrt, et une visualisation sur looker studio de quelques informations :  https://lookerstudio.google.com/reporting/12b9a24d-a75c-4913-9719-35af921f545d
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Ce qui manque : la documentation, des tests, une CI/CD.
