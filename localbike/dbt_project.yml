@@ -41,3 +41,6 @@ models:
     mart:
       +materialized: table
       +schema: localbike_mrt
+      reporting:
+        +materialized: table
+        +schema: localbike_mrt  # même dataset ou un localbike_reporting si tu préfères
